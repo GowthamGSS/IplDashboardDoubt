@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.Container {
+  margin: 0px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: Bree Serif;
+  justify-content: center;
+}
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* font-family: Bree Serif; */
+  /* justify-content: center; */
+  width: 100%;
+  height: 100%;
+  /* overflow: auto; */
+}
+
+.headCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.dashHead {
+  color: #ffff;
+  font-size: 40px;
+}
+.cardCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 80%;
+  width: 70%;
+}
+
+@media screen and (max-width: 767px) {
+  .Container {
+    width: 100%;
+  }
+  .dashHead {
+    font-size: large;
+  }
+  .logo {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+  }
+  .cardCont {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1299px) {
+  .cardCont {
+    width: 100%;
+    height: 100%;
+  }
+}

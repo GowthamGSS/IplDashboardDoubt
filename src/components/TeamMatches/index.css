@@ -1,0 +1,112 @@
+/* Write your CSS here */
+.TeamContainer {
+  display: flex;
+  flex-direction: column;
+  font-family: Bree Serif;
+  /* background-color: linear-gradient(to bottom, 'red', 'black'); */
+}
+
+.RCB {
+  /* background-color: red; */
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+  background-size: cover;
+  height: auto;
+  /* background-color: red; */
+}
+.KKR {
+  /* background-color: red; */
+  background-image: linear-gradient(to bottom, #5755a7, #1e293b);
+  background-size: cover;
+  height: auto;
+  /* background-color: red; */
+}
+.CSK {
+  /* background-color: red; */
+  background-image: linear-gradient(to bottom, #f7db00, #1e293b);
+  background-size: cover;
+  height: auto;
+  /* background-color: red; */
+}
+.RR {
+  /* background-color: red; */
+  background-image: linear-gradient(to bottom, #da237b, #1e293b);
+  background-size: cover;
+  height: auto;
+  /* background-color: red; */
+}
+.SH {
+  /* background-color: red; */
+  background-image: linear-gradient(to bottom, #f26d22, #1e293b);
+  background-size: cover;
+  height: auto;
+  /* background-color: red; */
+}
+.MI {
+  /* background-color: red; */
+  background-image: linear-gradient(to bottom, #13418b, #1e293b);
+  background-size: cover;
+  height: auto;
+  /* background-color: red; */
+}
+.DC {
+  /* background-color: red; */
+  background-image: linear-gradient(to bottom, #4f5db0, #1e293b);
+  background-size: cover;
+  height: auto;
+  /* background-color: red; */
+}
+.KXP {
+  /* background-color: red; */
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+  background-size: cover;
+  height: auto;
+  /* background-color: red; */
+}
+
+.TeamMatchCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.teamBanner {
+  /* height: 100%; */
+  height: auto;
+  width: 60%;
+  padding: 10px;
+  margin: 10px;
+}
+.teamMatches {
+  color: #ffff;
+}
+.textCont {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.matchCardCont {
+  display: flex;
+  width: 60%;
+  flex-wrap: wrap;
+  padding: 0px;
+  /* justify-content: center; */
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .TeamMatchCont {
+    width: 100%;
+  }
+  .teamBanner {
+    width: 90%;
+  }
+  .teamMatches {
+    font-size: 24px;
+  }
+  .textCont {
+    width: 90%;
+  }
+  .matchCardCont {
+    width: 90%;
+  }
+}
